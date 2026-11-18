@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-11-18T22:58:31.509001+00:00",
+  "hardware": {
+    "cpu": "Apple A18 Pro",
+    "ram_gb": "8.0",
+    "os": "Darwin 25.4.0",
+    "python_version": "3.14.6"
+  },
+  "lineage_parsing": {
+    "queries_parsed": 100,
+    "total_nodes_generated": 114,
+    "total_edges_generated": 800,
+    "p50_latency_ms": 0.725,
+    "p95_latency_ms": 1.16,
+    "mean_latency_ms": 0.947,
+    "throughput_queries_per_sec": 1056.2
+  },
+  "blast_radius": {
+    "pipeline_depth": 20,
+    "nodes_impacted": 1,
+    "p50_traversal_us": 5.08,
+    "p95_traversal_us": 16.35,
+    "mean_traversal_us": 7.26
+  },
+  "anomaly_monitors": {
+    "volume_eval_us": 13.92,
+    "freshness_eval_us": 1.87,
+    "distribution_drift_eval_us": 558.81
+  }
+}
